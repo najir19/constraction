@@ -1,0 +1,66 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.mail {
+    display: block;
+    text-align: center;
+   }
+	 .phone {
+	    display: block;
+	    text-align: center;
+	    margin: 5px 0;
+	}
+	.social {
+		text-align: center;
+	}
+	.heading h1 {
+	  font-size: 30px;
+	  padding: 0 35px
+	}
+	.heading h1:after, .heading h1:before {
+		top: 37%;
+	}
+	.menu-area {
+		padding-left: 0;
+	}
+	.heading .bold {
+	    font-size: 30px;
+	}
+	header .headline {
+		padding: 150px 0 50px;
+	}
+	header .headline h1 {
+	    font-size: 30px;
+	}
+	.about-description {
+    	padding-top: 40px;
+	}
+	.filtering li:nth-child(4) {
+	    margin-top: 15px;
+	}
+	.testomonial-text p {
+		font-size: 14px;
+	}
+	.testimonial .owl-nav div {
+		top: 25%;
+	}
+	.menu-area li:hover:before,.menu-area li.active:before {
+		top: 15px;
+	}
+	.contact {
+		padding-top: 40px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
